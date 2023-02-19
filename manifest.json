@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Comic Canvas",
+  "version": "1.0",
+  "description": "Canvas goes Comic Sanssssssssss",
+  "content_scripts": [
+    {
+      "matches": ["https://canvas.instructure.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
